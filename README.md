@@ -16,6 +16,8 @@ https://pypi.org/project/aws-sso-credential-helper/
 
 ### 1. Create Instance
 ```python
+from aws_sso_credential_helper import CredentialHelper
+
 credential_helper = CredentialHelper(
     start_url="d-xxxxxxxxxx.awsapps.com/start",
     region_name="ap-northeast-1"
