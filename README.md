@@ -9,6 +9,9 @@ AWS SSO Credential Helperは、AWS SSOを通した認証と、その後のスイ
 AWS SSOの認証tokenはファイルにキャッシュし、有効期間内であれば再利用します。  
 また、キャッシュはホームディレクトリにファイルとして保存し、Credential Helperを使った複数のプログラムで共有して利用することができます。
 
+## Pypi
+https://pypi.org/project/aws-sso-credential-helper/
+
 ## Usage
 
 ### 1. Create Instance
@@ -52,3 +55,11 @@ lambda_client = boto3.client(
     'Expiration': 有効期限,
 }
 ```
+
+## How to install
+
+install from pypi
+```python
+pip install aws-sso-credential-helper
+```
+
