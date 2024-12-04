@@ -14,7 +14,7 @@ setup(
     url = 'https://github.com/nbtd/aws-sso-credential-helper',
     license='MIT',
     python_requires='>=3.6',
-    version='0.0.1',
+    version='1.0.0',
     keywords='aws sso credential helper',
     packages=find_packages(),
     install_requires=requirements_from_file('requirements.txt'),
