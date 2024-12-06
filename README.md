@@ -1,6 +1,8 @@
 # AWS SSO Credential Helper
 ![PyPI Downloads](https://static.pepy.tech/badge/aws-sso-credential-helper)
 
+[English](README-en.md)
+
 AWSの認証を、AWS SSO (IAM Identity Center)を使って組織のユーザーディレクトリと連携されているケースは多いのではないでしょうか。  
 また、SSOでの認証後、各プロダクト・プロジェクト毎の専用ロールへスイッチロールが必要な場合も多いかと思います。
 
